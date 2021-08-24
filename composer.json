@@ -1,0 +1,63 @@
+{
+  "name": "boardteua/flarum-l10n-core-ukrainian",
+  "description": "Flarum ukrainian language pack.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "homepage": "https://weekdays.te.ua/",
+  "keywords": [
+    "extension",
+    "flarum",
+    "Ukrainian",
+    "language",
+    "locale",
+    "localization",
+    "translation"
+  ],
+  "authors": [
+    {
+      "name": "org100h",
+      "email": "myrror555@gmail.com",
+      "homepage": "https://weekdyas.te.ua",
+      "role": "Translator"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/pkgstore/flarum-l10n-core-Ukrainian",
+    "issues": "https://github.com/pkgstore/flarum-l10n-core-Ukrainian/issues",
+    "docs": "https://github.com/pkgstore/flarum-l10n-core-Ukrainian/blob/main/README.md",
+    "forum": "https://discuss.flarum.org/d/1545"
+  },
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "minimum-stability": "beta",
+  "suggest": {
+    "flarum/flarum": "Flarum"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Українська",
+      "category": "language",
+      "info": {
+        "website": "https://pkgstore.github.io/",
+        "support": "https://discuss.flarum.org/d/1545"
+      },
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#ffffff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flagrow": {
+      "discuss": "#"
+    },
+    "flarum-locale": {
+      "code": "ua",
+      "title": "Українська"
+    }
+  }
+}

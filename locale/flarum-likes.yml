@@ -9,29 +9,29 @@ flarum-likes:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: "Использовать систему симпатий"
+      like_posts_label: "Використовувати систему симпатій"
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "The bell".
     notifications:
       others_text: => core.ref.some_others
-      post_liked_text: "{username} понравилось Ваше сообщение"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} сподобалося Ваше повідомлення" # Can be pluralized to agree with the number of users!
 
     # These translations are displayed beneath individual posts.
     post:
-      like_link: "Нравится"
-      liked_by_self_text: "{users} оценили это."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{count, plural, one {{users} оценил это.} other {{users} оценили это.}}"
+      like_link: "Подобається"
+      liked_by_self_text: "{users} оцінили це." # Can be pluralized to agree with the number of users!
+      liked_by_text: "{count, plural, one {{users} оцінив це.} other {{users} оцінили це.}}"
       others_link: => core.ref.some_others
-      unlike_link: "Не нравится"
+      unlike_link: "Не подобається"
       you_text: => core.ref.you
 
     # These translations are used by the Users Who Like This modal dialog.
     post_likes:
-      title: "Сообщение понравилось..."
+      title: "Повідомлення сподобалося ..."
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: "Понравилось моё сообщение"
+      notify_post_liked_label: "Сподобалося моє повідомлення"

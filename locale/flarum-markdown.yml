@@ -1,12 +1,12 @@
 flarum-markdown:
   forum:
     composer:
-      bold_tooltip: "Жирный текст"
+      bold_tooltip: "Жирний текст"
       code_tooltip: "Код"
-      header_tooltip: "Заголовок"
-      image_tooltip: "Вставить изображение"
-      italic_tooltip: "Курсивный текст"
-      link_tooltip: "Вставить ссылку"
-      ordered_list_tooltip: "Нумерованный список"
+      header_tooltip: "Тема"
+      image_tooltip: "Вставити зображення"
+      italic_tooltip: "Курсивний текст"
+      link_tooltip: "Вставити посилання"
+      ordered_list_tooltip: "Нумерований список"
       quote_tooltip: "Цитата"
-      unordered_list_tooltip: "Маркированный список"
+      unordered_list_tooltip: "Маркований список"

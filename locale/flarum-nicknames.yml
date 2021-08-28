@@ -1,24 +1,24 @@
 flarum-nicknames:
   admin:
     permissions:
-      edit_own_nickname_label: "Изменять своё имя"
+      edit_own_nickname_label: "Змінювати своє ім'я"
     settings:
-      max_label: "Максимальная длина имени пользователя"
-      min_label: "Минимальная длина имени пользователя"
-      regex_label: "Регулярное выражение для проверки"
-      unique_label: "Требовать уникальные имена пользователей?"
-    wrong_driver: 'Необходимо выбрать "nickname" в качестве драйвера отображаемого имени на <a><strong>странице настроек</strong></a> для того, чтобы это расширение заработало.'
+      max_label: "Максимальна довжина імені користувача"
+      min_label: "Мінімальна довжина імені користувача"
+      regex_label: "Регулярний вираз для перевірки"
+      unique_label: "Вимагати унікальні імена користувачів?"
+    wrong_driver: 'Необхідно вибрати "nickname" в якості драйвера Імен на <a> <strong> сторінці налаштувань </ strong> </a> для того, щоб це розширення запрацювало.'
   api:
-    invalid_nickname_message: "Это имя пользователя некорректно. Пожалуйста, обратитесь к администратору форума для получения дополнительной информации о правилах использования имён пользователей."
+    invalid_nickname_message: "Це ім'я користувача некоректно. Будь ласка, зверніться до адміністратора форуму для отримання додаткової інформації про правила використання імен користувачів."
   forum:
     change_nickname:
       submit_button: => core.ref.save_changes
-      title:  => flarum-nicknames.ref.change_nickname
+      title: => flarum-nicknames.ref.change_nickname
     edit_user:
       nicknames_heading: => flarum-nicknames.ref.change_nickname
-      nicknames_text: "Имя пользователя"
+      nicknames_text: "Ім'я користувача"
     settings:
       change_nickname_button: => flarum-nicknames.ref.change_nickname
 
   ref:
-    change_nickname: "Изменить имя"
+    change_nickname: "Змінити ім'я"
